@@ -1,0 +1,138 @@
+body { padding: 0; margin: 0; }
+
+.map-select svg:hover {
+    filter: none;
+}
+
+.map-select svg {
+    filter: grayscale(0.9);
+    cursor: pointer;
+}
+
+.map-select {
+    margin: 40px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.map-select div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.level-select {
+    margin: 40px 20px;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 5px;
+}
+
+.level-select-header {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    color: #7a3300;
+}
+
+.levels-source {
+    grid-column-start: 5;
+    grid-column-end: end;
+    color: #7a3300;
+    align-self: center
+}
+
+.level {
+    border: 3px double cornsilk;
+    cursor: pointer;
+    padding: 10px;
+    background: #7a3300;
+    color: cornsilk;
+}
+
+.level:hover .info {
+    display: none;
+}
+
+.desc {
+    display: none;
+    color: #7a3300;
+}
+
+.level:hover .desc {
+    display: block;
+}
+
+.level:hover {
+    background-color: cornsilk;
+}
+
+@media only screen and (max-width: 600px) {
+    .map-select {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .map-select {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .map-select {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .map-select {
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-25 {
+    font-size: 25px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.as-center {
+    align-self: center;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.menu g:hover {
+    fill: #b08244;
+    cursor: pointer;
+}
+
+.menu rect:hover {
+    fill: #b08244;
+    cursor: pointer;
+}
