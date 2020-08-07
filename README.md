@@ -8,3 +8,7 @@ You can select from hundreds of maps from https://www.sourcecode.se/sokoban/leve
 - parsing maps from text format with elm/parser (using [loop parser](https://package.elm-lang.org/packages/elm/parser/latest/Parser#loop))
 - undo step
 - restart current map
+
+# TO DOS
+- store completed maps to indexdb
+- touch screen support
