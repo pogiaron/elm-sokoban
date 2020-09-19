@@ -1,7 +1,7 @@
 # elm-sokoban
-The popular sokoban game implemented in elm
-
-You can select from hundreds of maps from https://www.sourcecode.se/sokoban/levels
+- The popular sokoban game implemented in elm
+- You can try out the application here: https://pogiaron.github.io/elm-sokoban/
+- You can select from hundreds of maps from https://www.sourcecode.se/sokoban/levels
 
 # main functionalities
 - get maps via http from https://www.sourcecode.se/sokoban/levels with elm/http
